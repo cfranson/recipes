@@ -60,10 +60,6 @@
             		<key>Processor</key>
             		<string>Versioner</string>
         </dict>
-            	</dict>
-            		<key>Processor</key>
-            		<string>MunkiPkginfoMerger</string>
-        </dict>
 	</array>
 </dict>
 </plist>
