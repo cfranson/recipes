@@ -50,15 +50,15 @@
 			<string>MunkiImporter</string>
 		</dict>
 		 <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>input_plist_path</key>
-                <string>%pathname%/Screens 4.app/Contents/Info.plist</string>
-                <key>plist_version_key</key>
-                <string>CFBundleVersion</string>
-            </dict>
-            <key>Processor</key>
-            <string>Versioner</string>
+            		<key>Arguments</key>
+            		<dict>
+                		<key>input_plist_path</key>
+                		<string>%pathname%/Screens 4.app/Contents/Info.plist</string>
+                		<key>plist_version_key</key>
+                		<string>CFBundleVersion</string>
+            		</dict>
+            		<key>Processor</key>
+            		<string>Versioner</string>
         </dict>
 	</array>
 </dict>
