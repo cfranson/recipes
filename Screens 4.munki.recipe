@@ -60,6 +60,23 @@
             		<key>Processor</key>
             		<string>Versioner</string>
         </dict>
+	<dict>
+			<key>Arguments</key>
+            		<dict>
+                		<key>additional_pkginfo</key>
+                		<dict>
+                    		<key>installs</key>
+                    		<array>
+                        	<dict>
+                            	<key>version_comparison_key</key>
+                            	<string>CFBundleVersion</string>
+                        	</dict>
+                    		</array>
+               	</dict>
+            	</dict>
+            		<key>Processor</key>
+            		<string>MunkiPkginfoMerger</string>
+        </dict>
 	</array>
 </dict>
 </plist>
