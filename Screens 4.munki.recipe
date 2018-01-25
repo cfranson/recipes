@@ -3,7 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Screens 4 and imports it into Munki.</string>
 	<key>Identifier</key>
@@ -45,6 +44,8 @@
 				<string>%pathname%</string>
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
 			</dict>
 			<key>Processor</key>
 			<string>MunkiImporter</string>
@@ -60,19 +61,6 @@
             		<key>Processor</key>
             		<string>Versioner</string>
         </dict>
-	<dict>
-			<key>Arguments</key>
-            		<dict>
-                		<key>additional_pkginfo</key>
-                		<dict>
-                    		<key>installs</key>
-                    		<array>
-                        	<dict>
-                            	<key>version_comparison_key</key>
-                            	<string>CFBundleVersion</string>
-                        	</dict>
-                    		</array>
-               	</dict>
             	</dict>
             		<key>Processor</key>
             		<string>MunkiPkginfoMerger</string>
