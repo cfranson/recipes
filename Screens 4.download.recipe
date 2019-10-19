@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Screens 4.</string>
 	<key>Identifier</key>
-	<string>com.chrisfranson.download.Screens4</string>
+	<string>com.github.cfranson.download.Screens4</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
