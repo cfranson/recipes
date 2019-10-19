@@ -38,6 +38,8 @@
 				<key>replace</key>
 				<string>%20</string>
 			</dict>
+			<key>Processor</key>
+			<string>com.github.homebysix.FindAndReplace/FindAndReplace</string>
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
