@@ -38,6 +38,7 @@
 				<key>replace</key>
 				<string>%20</string>
 			</dict>
+			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
 				<string>%NAME%-%version%.zip</string>
