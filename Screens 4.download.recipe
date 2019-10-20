@@ -40,6 +40,14 @@
 			</dict>
 			<key>Processor</key>
 			<string>com.github.homebysix.FindAndReplace/FindAndReplace</string>
+			<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>url</key>
+				<string>%output_string%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
