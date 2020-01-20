@@ -21,7 +21,9 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Marp is the simplest presentation writer with Markdown.</string>
+			<string>The Fastest Way to Deploy Macs</string>
+			<key>category</key>
+			<string>Utilities</string>
 			<key>developer</key>
 			<string>Twocanoes Software, Inc.</string>
 			<key>display_name</key>
