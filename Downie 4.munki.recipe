@@ -26,6 +26,8 @@
 			<string>Krystof Vasa</string>
 			<key>display_name</key>
 			<string>Downie 4</string>
+			<key>category</key>
+			<string>Media Utilities</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
